@@ -8,3 +8,6 @@ forro.py [FACELET_PATH]
 
 It will be search recursively for all facelet (.xhtml) files.
 
+Example
+---
+forro.py ./workspace/my_lovely_jsf_project/
