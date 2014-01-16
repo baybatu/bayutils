@@ -1,6 +1,6 @@
 forro
 ---
-Forro founds missing 'for' attributes of outputLabel tags in JSF facelets. Missing 'for' attributes cause unnecessary logs. It allows you to find them and fix.
+Forro founds missing 'for' attributes of outputLabel tags in JSF facelets. Missing 'for' attributes cause unnecessary logs. It allows you to find and fix them.
 
 usage
 ---
