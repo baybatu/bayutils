@@ -1,5 +1,5 @@
 # Batuhan Bayrakci<batuhanbayrakci@gmail.com> - 16 Jan 2014
-# Founds missing 'for' attributes of h:outputLabel and p:outputLabel tags
+# Founds missing 'for' attributes of h:outputLabel and p:outputLabel tags of facelets in JSF
 
 import os
 import lxml.etree
