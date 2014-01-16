@@ -31,8 +31,6 @@ def get_all_xhtml_files(root_dir):
     for r,d,f in os.walk(root_dir):
         if is_excluded(r, exclude_paths):
             continue
-        #if r.find("/target/") != -1:
-        #    continue
         for file in f:
             if str(file).endswith(".xhtml"):
                 file_list.append((r, file))
