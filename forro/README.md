@@ -6,7 +6,7 @@ usage
 ---
 forro.py _[FACELETPATH]_
 
-It will be search recursively for all facelet (*.xhtml) files.
+It will be searched recursively for all facelet (*.xhtml) files.
 
 usage example
 ---
