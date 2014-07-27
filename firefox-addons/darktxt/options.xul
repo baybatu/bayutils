@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <setting data-jetpack-id="jid1-ADDefLkIZXJwew@jetpack" pref="extensions.jid1-ADDefLkIZXJwew@jetpack.mode" pref-name="mode" title="Mode" type="menulist">
+    <menulist>
+      <menupopup>
+        <menuitem label="Activate for all .txt documents" value="0"/>
+        <menuitem label="Activate when button clicked" value="1"/>
+      </menupopup>
+    </menulist>
+  </setting>
+</vbox>
