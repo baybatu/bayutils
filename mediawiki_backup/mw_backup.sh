@@ -23,12 +23,12 @@ ZIP_FNAME="wiki_backup_$FNAME.zip"
 # mysqldump path
 MYSQLDUMP_PATH='/Applications/MAMP/Library/bin'
 
-# Apache
+# Apache's htdocs path
 HTDOCS='/Applications/MAMP/htdocs'
 
 cd $HTDOCS
 
-echo "DB is backing up..."
+echo "MySQL DB is backing up..."
 $MYSQLDUMP_PATH/mysqldump --database $DATABASE_NAME -u $DATABASE_USERNAME -p$DATABASE_PASSWORD > $FNAME.sql 
 if [ $? -ne 0 ]; then
     echo "Check yo dumping parameters before wreck yoself!"
@@ -38,7 +38,7 @@ fi
 echo "Wiki and SQL dump file is zipping..."
 zip -r $ZIP_FNAME ./$WIKI_DIR_NAME_IN_HTDOCS $FNAME.sql
 
-echo "Zipping is succeed."
+echo "Zipping is completed successfully"
 echo "The zip file is being moved to the backup path:$BACKUP_PATH"
 rm -rf $BACKUP_PATH
 mkdir $BACKUP_PATH
