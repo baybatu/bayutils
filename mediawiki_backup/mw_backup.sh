@@ -11,6 +11,7 @@ DATABASE_NAME='MY_DATABASENAME'
 DATABASE_USERNAME='MY_MySQL_USERNAME'
 DATABASE_PASSWORD='MY_MySQL_PASSWORD'
 
+# Path of your MediaWiki. For example, my path is: /Applications/MAMP/htdocs/wiki 
 WIKI_DIR_NAME_IN_HTDOCS='wiki'
 
 # Full path for backup
