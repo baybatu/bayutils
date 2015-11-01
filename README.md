@@ -18,3 +18,7 @@ MediaWiki backup script. It can combine MediaWiki MySQL database dump and MediaW
 mod2mp3
 ------
 Helps to convert module files(.mod) to mp3 format.
+
+firefox-guncelleyici
+------
+Firefox update script for "Pardus Kurumsal 2". It allows to update Firefox to newer version that not in official repos yet. It is out-dated but can be updated later on.
