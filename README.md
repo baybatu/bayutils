@@ -14,3 +14,7 @@ Bandil is resource bundle checker in el expressions for xhtml files. It finds mi
 mediawiki_backup
 ------
 MediaWiki backup script. It can combine MediaWiki MySQL database dump and MediaWiki files(images, extensions, configuration and all other files) into one zip file.
+
+mod2mp3
+------
+Helps to convert module files(.mod) to mp3 format.
